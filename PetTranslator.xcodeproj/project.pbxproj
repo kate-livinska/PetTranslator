@@ -7,19 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860EB1E02D5A23BF00CC3682 /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860EB1DF2D5A23BF00CC3682 /* ContentVM.swift */; };
+		860EB1E22D5A6A7000CC3682 /* recording.gif in Resources */ = {isa = PBXBuildFile; fileRef = 860EB1E12D5A6A7000CC3682 /* recording.gif */; };
+		860EB1E52D5A78E900CC3682 /* dog-bark-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860EB1E42D5A78E900CC3682 /* dog-bark-1.mp3 */; };
+		860EB1E72D5A78F100CC3682 /* cat-meow-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860EB1E62D5A78F100CC3682 /* cat-meow-1.mp3 */; };
+		860EB1E92D5A93DB00CC3682 /* cat-meow-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860EB1E82D5A93DB00CC3682 /* cat-meow-2.mp3 */; };
+		860EB1EB2D5A93E300CC3682 /* dog-bark-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 860EB1EA2D5A93E300CC3682 /* dog-bark-2.mp3 */; };
+		86899F632D5B7CF0008FEF2D /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 86899F622D5B7CF0008FEF2D /* SDWebImageSwiftUI */; };
 		86B95A382D550D52007A5397 /* PetTranslatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A372D550D52007A5397 /* PetTranslatorApp.swift */; };
 		86B95A3A2D550D52007A5397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A392D550D52007A5397 /* ContentView.swift */; };
 		86B95A3C2D550D53007A5397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B95A3B2D550D53007A5397 /* Assets.xcassets */; };
 		86B95A402D550D53007A5397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B95A3F2D550D53007A5397 /* Preview Assets.xcassets */; };
+		86B95A4A2D5516C5007A5397 /* KonkhmerSleokchher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86B95A472D5516C5007A5397 /* KonkhmerSleokchher-Regular.ttf */; };
+		86B95A4B2D5516C5007A5397 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 86B95A482D5516C5007A5397 /* OFL.txt */; };
+		86B95A4F2D57B4F5007A5397 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A4E2D57B4F5007A5397 /* SettingsView.swift */; };
+		86B95A512D57B50B007A5397 /* TranslationResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A502D57B50B007A5397 /* TranslationResultView.swift */; };
+		86B95A532D57C19A007A5397 /* FooterTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A522D57C19A007A5397 /* FooterTabView.swift */; };
+		86B95A5A2D58C937007A5397 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A592D58C937007A5397 /* CustomFont.swift */; };
+		86B95A5E2D58CC40007A5397 /* CustomRoundedRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A5D2D58CC40007A5397 /* CustomRoundedRectangleView.swift */; };
+		86B95A602D58DFD3007A5397 /* SpeechBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A5F2D58DFD3007A5397 /* SpeechBubbleView.swift */; };
+		86B95A622D590035007A5397 /* PetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A612D590035007A5397 /* PetImageView.swift */; };
+		86B95A652D590864007A5397 /* AudioRecorderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A642D590864007A5397 /* AudioRecorderVM.swift */; };
+		86B95A692D594E32007A5397 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A682D594E32007A5397 /* ProcessingView.swift */; };
+		86B95A6B2D595CD2007A5397 /* CustomBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B95A6A2D595CD2007A5397 /* CustomBackGround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860EB1DF2D5A23BF00CC3682 /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
+		860EB1E12D5A6A7000CC3682 /* recording.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = recording.gif; sourceTree = "<group>"; };
+		860EB1E42D5A78E900CC3682 /* dog-bark-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dog-bark-1.mp3"; sourceTree = "<group>"; };
+		860EB1E62D5A78F100CC3682 /* cat-meow-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-meow-1.mp3"; sourceTree = "<group>"; };
+		860EB1E82D5A93DB00CC3682 /* cat-meow-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-meow-2.mp3"; sourceTree = "<group>"; };
+		860EB1EA2D5A93E300CC3682 /* dog-bark-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dog-bark-2.mp3"; sourceTree = "<group>"; };
 		86B95A342D550D52007A5397 /* PetTranslator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetTranslator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B95A372D550D52007A5397 /* PetTranslatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTranslatorApp.swift; sourceTree = "<group>"; };
 		86B95A392D550D52007A5397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86B95A3B2D550D53007A5397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B95A3D2D550D53007A5397 /* PetTranslator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetTranslator.entitlements; sourceTree = "<group>"; };
 		86B95A3F2D550D53007A5397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86B95A472D5516C5007A5397 /* KonkhmerSleokchher-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KonkhmerSleokchher-Regular.ttf"; sourceTree = "<group>"; };
+		86B95A482D5516C5007A5397 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		86B95A4C2D551748007A5397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86B95A4E2D57B4F5007A5397 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		86B95A502D57B50B007A5397 /* TranslationResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResultView.swift; sourceTree = "<group>"; };
+		86B95A522D57C19A007A5397 /* FooterTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterTabView.swift; sourceTree = "<group>"; };
+		86B95A592D58C937007A5397 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		86B95A5D2D58CC40007A5397 /* CustomRoundedRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedRectangleView.swift; sourceTree = "<group>"; };
+		86B95A5F2D58DFD3007A5397 /* SpeechBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubbleView.swift; sourceTree = "<group>"; };
+		86B95A612D590035007A5397 /* PetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImageView.swift; sourceTree = "<group>"; };
+		86B95A642D590864007A5397 /* AudioRecorderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorderVM.swift; sourceTree = "<group>"; };
+		86B95A682D594E32007A5397 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		86B95A6A2D595CD2007A5397 /* CustomBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackGround.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,12 +65,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86899F632D5B7CF0008FEF2D /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		860EB1E32D5A788400CC3682 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				860EB1E62D5A78F100CC3682 /* cat-meow-1.mp3 */,
+				860EB1E82D5A93DB00CC3682 /* cat-meow-2.mp3 */,
+				860EB1EA2D5A93E300CC3682 /* dog-bark-2.mp3 */,
+				860EB1E42D5A78E900CC3682 /* dog-bark-1.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		86B95A2B2D550D52007A5397 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +102,14 @@
 		86B95A362D550D52007A5397 /* PetTranslator */ = {
 			isa = PBXGroup;
 			children = (
+				86B95A4C2D551748007A5397 /* Info.plist */,
+				86B95A632D590833007A5397 /* ViewModel */,
+				86B95A4D2D57B4C3007A5397 /* View */,
 				86B95A372D550D52007A5397 /* PetTranslatorApp.swift */,
-				86B95A392D550D52007A5397 /* ContentView.swift */,
 				86B95A3B2D550D53007A5397 /* Assets.xcassets */,
+				860EB1E12D5A6A7000CC3682 /* recording.gif */,
+				860EB1E32D5A788400CC3682 /* sounds */,
+				86B95A462D551696007A5397 /* project.fonts */,
 				86B95A3D2D550D53007A5397 /* PetTranslator.entitlements */,
 				86B95A3E2D550D53007A5397 /* Preview Content */,
 			);
@@ -67,6 +122,50 @@
 				86B95A3F2D550D53007A5397 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86B95A462D551696007A5397 /* project.fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86B95A492D5516C5007A5397 /* Konkhmer_Sleokchher */,
+			);
+			path = project.fonts;
+			sourceTree = "<group>";
+		};
+		86B95A492D5516C5007A5397 /* Konkhmer_Sleokchher */ = {
+			isa = PBXGroup;
+			children = (
+				86B95A472D5516C5007A5397 /* KonkhmerSleokchher-Regular.ttf */,
+				86B95A482D5516C5007A5397 /* OFL.txt */,
+			);
+			name = Konkhmer_Sleokchher;
+			path = ../../../../../Desktop/Konkhmer_Sleokchher;
+			sourceTree = "<group>";
+		};
+		86B95A4D2D57B4C3007A5397 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86B95A392D550D52007A5397 /* ContentView.swift */,
+				86B95A502D57B50B007A5397 /* TranslationResultView.swift */,
+				86B95A682D594E32007A5397 /* ProcessingView.swift */,
+				86B95A4E2D57B4F5007A5397 /* SettingsView.swift */,
+				86B95A522D57C19A007A5397 /* FooterTabView.swift */,
+				86B95A612D590035007A5397 /* PetImageView.swift */,
+				86B95A5D2D58CC40007A5397 /* CustomRoundedRectangleView.swift */,
+				86B95A5F2D58DFD3007A5397 /* SpeechBubbleView.swift */,
+				86B95A592D58C937007A5397 /* CustomFont.swift */,
+				86B95A6A2D595CD2007A5397 /* CustomBackGround.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86B95A632D590833007A5397 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				86B95A642D590864007A5397 /* AudioRecorderVM.swift */,
+				860EB1DF2D5A23BF00CC3682 /* ContentVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,6 +212,9 @@
 				Base,
 			);
 			mainGroup = 86B95A2B2D550D52007A5397;
+			packageReferences = (
+				86899F612D5B7CF0008FEF2D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 86B95A352D550D52007A5397 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +229,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				860EB1E92D5A93DB00CC3682 /* cat-meow-2.mp3 in Resources */,
 				86B95A402D550D53007A5397 /* Preview Assets.xcassets in Resources */,
+				86B95A4A2D5516C5007A5397 /* KonkhmerSleokchher-Regular.ttf in Resources */,
+				86B95A4B2D5516C5007A5397 /* OFL.txt in Resources */,
+				860EB1E52D5A78E900CC3682 /* dog-bark-1.mp3 in Resources */,
+				860EB1E22D5A6A7000CC3682 /* recording.gif in Resources */,
+				860EB1E72D5A78F100CC3682 /* cat-meow-1.mp3 in Resources */,
 				86B95A3C2D550D53007A5397 /* Assets.xcassets in Resources */,
+				860EB1EB2D5A93E300CC3682 /* dog-bark-2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +248,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B95A6B2D595CD2007A5397 /* CustomBackGround.swift in Sources */,
+				86B95A692D594E32007A5397 /* ProcessingView.swift in Sources */,
+				86B95A5A2D58C937007A5397 /* CustomFont.swift in Sources */,
+				86B95A602D58DFD3007A5397 /* SpeechBubbleView.swift in Sources */,
+				86B95A652D590864007A5397 /* AudioRecorderVM.swift in Sources */,
+				86B95A622D590035007A5397 /* PetImageView.swift in Sources */,
+				86B95A4F2D57B4F5007A5397 /* SettingsView.swift in Sources */,
+				86B95A512D57B50B007A5397 /* TranslationResultView.swift in Sources */,
 				86B95A3A2D550D52007A5397 /* ContentView.swift in Sources */,
+				86B95A532D57C19A007A5397 /* FooterTabView.swift in Sources */,
+				860EB1E02D5A23BF00CC3682 /* ContentVM.swift in Sources */,
+				86B95A5E2D58CC40007A5397 /* CustomRoundedRectangleView.swift in Sources */,
 				86B95A382D550D52007A5397 /* PetTranslatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +390,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetTranslator/Preview Content\"";
+				DEVELOPMENT_TEAM = DZ9576248H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetTranslator/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -280,9 +402,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -290,10 +412,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.livinska.PetTranslator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,8 +429,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PetTranslator/Preview Content\"";
+				DEVELOPMENT_TEAM = DZ9576248H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetTranslator/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -316,9 +441,9 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
@@ -326,10 +451,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.livinska.PetTranslator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -355,6 +481,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86899F612D5B7CF0008FEF2D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86899F622D5B7CF0008FEF2D /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86899F612D5B7CF0008FEF2D /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86B95A2C2D550D52007A5397 /* Project object */;
 }
