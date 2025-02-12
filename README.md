@@ -3,6 +3,8 @@
 
 **Technologies Used:** SwiftUI, SDWebImageSwiftUI
 
-**Demo:** [video](https://drive.google.com/file/d/1GFiJfrfqYQ1g7Ng0A9MM3LzohUWPVoed/view?usp=sharing)
+**Demo:** [video with sound](https://drive.google.com/file/d/1q-6QeCrR1KTjlKPrukONlO1TH8IJKEWK/view?usp=sharing)
 
 **Dependencies:** SDWebImageSwiftUI
+
+![](https://github.com/kate-livinska/PetTranslator/blob/main/Demo.gif)
